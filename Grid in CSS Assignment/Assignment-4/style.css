@@ -1,0 +1,27 @@
+body{
+    margin: 40px;
+}
+.container{
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 100px);
+}
+.box{
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+    border-radius: 5px;
+    order: 1;
+}
+.box2, .box4, .box6, .box8{
+    background-color: #ccc;
+    color: #000;
+}
+.box1{
+    order: 2;
+}
+.box2{
+    order: 3;
+}
